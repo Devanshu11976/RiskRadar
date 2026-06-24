@@ -1,0 +1,36 @@
+<svg width="1000" height="280" viewBox="0 0 1000 280" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <marker id="arrow2" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#8a93a8"/>
+    </marker>
+  </defs>
+  <style>
+    .box { font-family: Verdana, Arial, sans-serif; font-size: 14px; font-weight: bold; fill:#0f1226; }
+    .sub { font-family: Verdana, Arial, sans-serif; font-size: 11px; fill:#0f1226; opacity:0.75; }
+  </style>
+
+  <!-- top row: Frontend <-> Backend <-> MongoDB -->
+  <line x1="225" y1="55" x2="395" y2="55" stroke="#8a93a8" stroke-width="2" marker-end="url(#arrow2)"/>
+  <line x1="395" y1="55" x2="225" y2="55" stroke="#8a93a8" stroke-width="2" marker-end="url(#arrow2)"/>
+  <line x1="605" y1="55" x2="775" y2="55" stroke="#8a93a8" stroke-width="2" marker-end="url(#arrow2)"/>
+  <line x1="775" y1="55" x2="605" y2="55" stroke="#8a93a8" stroke-width="2" marker-end="url(#arrow2)"/>
+
+  <rect x="35" y="25" width="190" height="60" rx="10" fill="#7C9CFF" stroke="#5C7CFA" stroke-width="1.5"/>
+  <text x="130" y="50" text-anchor="middle" class="box">React Frontend</text>
+  <text x="130" y="68" text-anchor="middle" class="sub">Dashboard</text>
+
+  <rect x="405" y="25" width="200" height="60" rx="10" fill="#9D8CFF" stroke="#7B61FF" stroke-width="1.5"/>
+  <text x="505" y="50" text-anchor="middle" class="box">Express Backend</text>
+  <text x="505" y="68" text-anchor="middle" class="sub">API &amp; scoring logic</text>
+
+  <rect x="785" y="25" width="180" height="60" rx="10" fill="#5EE7C8" stroke="#4FD1B8" stroke-width="1.5"/>
+  <text x="875" y="50" text-anchor="middle" class="box">MongoDB</text>
+  <text x="875" y="68" text-anchor="middle" class="sub">Persistence</text>
+
+  <!-- down arrow from backend to kafka -->
+  <line x1="505" y1="85" x2="505" y2="175" stroke="#8a93a8" stroke-width="2" marker-end="url(#arrow2)"/>
+
+  <rect x="405" y="190" width="200" height="60" rx="10" fill="#FF8C8C" stroke="#FF6B6B" stroke-width="1.5"/>
+  <text x="505" y="215" text-anchor="middle" class="box">Apache Kafka</text>
+  <text x="505" y="233" text-anchor="middle" class="sub">Message queue / streaming</text>
+</svg>
