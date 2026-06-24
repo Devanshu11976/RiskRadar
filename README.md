@@ -252,6 +252,6 @@ This combination — unknown merchant, crypto category, failed CVV, active VPN �
 
 <div align="center">
 
-<sub>Built by <strong>sukshamrainaa</strong> · provided for educational and development purposes.</sub>
+<sub>Built by <strong>Devanshu Sharma</strong> · provided for educational and development purposes.</sub>
 
 </div>
